@@ -12,12 +12,11 @@
 }
 
 a, h1, input, p {
-	font-family: 'Helvetica Neue Regular', Arial, sans-serif;;
+	font-family: 'Helvetica Neue Regular', Arial, sans-serif;
 }
 
 body {
-	background: url(../img/back.png);
-	background-repeat: no-repeat;
+	background: url(../img/back.png) no-repeat;
 	background-size: cover;
 }
 
@@ -33,7 +32,6 @@ body {
 	width: 100%;
 	height: 36px;
 	text-align: right;
-
 }
 
 .menu_1 {
@@ -63,8 +61,7 @@ body {
 }
 
 .menu_2:hover {
-	background: url(../img/back_menu_button.png) ;
-	background-repeat: no-repeat;
+	background: url(../img/back_menu_button.png) no-repeat;
 }
 
 .top_menu1 {
@@ -93,8 +90,7 @@ h1 {
 
 .fb {
 	display: block;
-	padding: 10px;
-	padding-top: 30px;
+	padding: 10px 30px;
 }
 
 .border_cont {
@@ -102,8 +98,7 @@ h1 {
 }
 
 .text_form {
-	margin: auto;
-	margin-top: 20px;
+	margin:20px auto 0;
 	padding: 0px 15px;
   border: 1px solid #100f0f;
 	border-bottom: 1px solid #484848;
@@ -115,8 +110,7 @@ h1 {
 }
 
 .text_form:focus {
-	margin: auto;
-	margin-top: 20px;
+	margin: 20px auto 0;
 	padding: 0px 15px;
 	border: 1px solid #100f0f;
 	border-bottom: 1px solid #484848;
@@ -133,8 +127,7 @@ label {
 }
 
 .box {
-	margin: 15px 0px;
-	margin-left: -20px;
+	margin: 15px 0 0 -20px;
 }
 
 .button {
